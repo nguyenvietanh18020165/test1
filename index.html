@@ -2,134 +2,165 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Document</title>
+
 </head>
 
 <body>
-    <div id="main">
-        <div class="header">
-            <button class="logo">LOGO</button>
-            <ul class="btn">
-                <li><button type="button" class="btn1">Button01</button></li>
-                <li><button type="button" class="btn1">Button02</button></li>
-            </ul>
-            <div class="tbl">
-                <a class="link" href="">Link 01 <span>|</span></a>
-                <a class="link" href="">Link 02 <span>|</span></a>
-                <a class="link" href="">Link 03 <span>|</span></a>
-                <a class="link" href="">Link 04</a>
+  <div class="container-fluid">
+      <div class="row py-1 border border-1">
+        <div class="col-auto ms-2">
+          <button type="button" class="btn btn-primary">
+            <img src="./assets/image/select.svg" alt="">
+            <div class="div">
+              Select tool
             </div>
+          </button>
         </div>
-
-        <div class="slider">
-            <ul class="nav">
-                <li><a href="">TRANG CHỦ </a><span>|</span></li>
-                <li><a href="">GIỚI THIỆU<span>|</span></a></li>
-                <li><a href="">SẢN PHẨM<span>|</span></a></li>
-                <li><a href="">DỊCH VỤ<span>|</span></a></li>
-                <li><a href="">LIÊN HỆ</a></li>
-            </ul>
-        </div>
-
-        <div class="content">
-            <div class="blog">
-                <div class="product line">
-                    Sản phẩm mới
-                </div>
-                <div class="product1">
-                    <div class="product_image">
-                        <img src="/assets/image/bmw-218i-2021-400x300.jpg" alt="">
-                    </div>
-                    <div class="product_title">
-                        <div class="product_name">
-                           BMW
-                        </div>
-                        <div class="product_desc">
-                            – Uy tín: Thực hiện đúng và cao hơn những cam kết với khách hàng, đối tác
-                            – Năng lực: Tập hợp, huấn luyện và phát triển năng lực nhân sự
-                            – Chia sẻ: Chia sẻ lợi ích với đối tác, khách hàng, nhân sự và xã hội
-                            – Hệ thống: Hệ thống quản trị khoa học, hiện đại và luôn đổi mới để hoàn thiện
-                            – Trung: Trung thực và minh bạch trong các hoạt động, trung thành và theo đuổi mục tiêu tới cùng.
-                        </div>
-                    </div>
-                </div>
-                <div class="flex_box">
-                    <div>Hinh 1</div>
-                    <div>Hinh 2</div>
-                    <div>Hinh 3</div>
-                    <div>Hinh 4</div>
-                    <div>Hinh 5</div>
-                    <div>Hinh 6</div>
-                </div>
-
-                <div class="news">
-                    <div class="news_title">
-                        Tin tuc
-                    </div>
-                    <div class="new1">
-                        07/05/2012 <br>
-                        <p>Tin tuc moi Tin tuc moi Tin tuc moi Tin tuc moi </p> 
-                    </div>
-                    <div class="new1">
-                        07/05/2012 <br>
-                        <p>Tin tuc moi Tin tuc moi Tin tuc moi Tin tuc moi </p> 
-                    </div>
-                    <div class="new1">
-                        07/05/2012 <br>
-                        <p>Tin tuc moi Tin tuc moi Tin tuc moi Tin tuc moi </p> 
-                    </div>
-                    <div class="banner">
-                        BANNER CONTACT
-                    </div>
-                </div>
+        <div class="col-auto">
+          <button type="button" class="btn">
+            <img src="./assets/image/text.svg" alt="">
+            <div class="div">
+              Text
             </div>
-
-            <div class="link_content">
-                <div class="link_title">
-                    Link lien quan
-                </div>
-                <ul class="link_lq">
-                    <li>Link lien quan</li>
-                    <li>Link lien quan</li>
-                    <li>Link lien quan</li>
-                    <li>Link lien quan</li>
-                    <li>Link lien quan</li>
-                    <li>Link lien quan</li>
-                </ul>
-                <div class="link_title">
-                    Link lien quan
-                </div>
-                <div class="link_banner">BANNER</div>
-                <div class="link_banner">BANNER</div>
-                <div class="link_banner">BANNER</div>
-            </div>
+          </button>
         </div>
-
-        <div class="footer">
-            <ul class="info">
-                <li>TÊN CÔNG TY</li>
-                <li>Địa chỉ: 123 abc, phường X, quận Y, tp.Z </li>
-                <li>Điện thoại: 012.3456789 </li>
-                <li>Email: congty@gmail.com</li>
-            </ul>
-            <div class="contact">
-                <div class="tbl2">
-                    <a class="link" href="">Link 01 <span>|</span></a>
-                    <a class="link" href="">Link 02 <span>|</span></a>
-                    <a class="link" href="">Link 03 <span>|</span></a>
-                    <a class="link" href="">Link 04</a>
-                </div>
-                <div>
-                    Copyright (c) 2012 Tên công ty
-                </div>
+        <div class="col-auto">
+          <button type="button" class="btn">
+            <img src="./assets/image/shape.svg" alt="">
+            <div class="div">
+              Shapes
             </div>
+          </button>
         </div>
-
+        <div class="col-auto">
+          <button type="button" class="btn">
+            <img src="./assets/image/stamp.svg" alt="">
+            <div class="div">
+              Stamps
+            </div>
+          </button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn">
+            <img src="./assets/image/form.svg" alt="">
+            <div class="div">
+              Forms
+            </div>
+          </button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn">
+            <img src="./assets/image/add-image.svg" alt="">
+            <div class="div">
+              Add image
+            </div>
+          </button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn ">
+            <img src="./assets/image/brush.svg" alt="">
+            <div class="div">
+              Brush
+            </div>
+          </button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn ">
+            <img src="./assets/image/earse.svg" alt="">
+            <div class="div">
+              Earse
+            </div>
+          </button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn ">
+            <img src="./assets/image/link.svg" alt="">
+            <div class="div">
+              Link
+            </div>
+          </button>
+        </div>
+        <div class="col-auto ms-auto">
+          <button type="button" class="btn ">
+            <img src="./assets/image/un-do.svg" alt="">
+            <div class="div">
+              Un-do
+            </div>
+          </button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn ">
+            <img src="./assets/image/re-do.svg" alt="">
+            <div class="div">
+              Re-do
+            </div>
+          </button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn ">
+            <img src="./assets/image/download.svg" alt="">
+            <div class="div">
+              Download
+            </div>
+          </button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn bg-green">
+            <img src="./assets/image/save.svg" alt="">
+            <div class="div">
+              Save
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="header-bottom row py-1 border border-1">
+        <div class="col-auto ">
+          <select class="form-select fs-14" aria-label="Default select example">
+            <option selected>
+              Times New Roman
+            </option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-auto">
+          <select class="form-select fs-14" aria-label="Default select example">
+            <option selected>
+              16
+            </option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-auto px-0">
+          <button type="button" class="btn pt-0">
+            <img src="./assets/image/black.svg" alt="">
+          </button>
+        </div>
+        <div class="col-auto px-0">
+          <button type="button" class="btn pt-0">
+            <img src="./assets/image/Bold.svg" alt="">
+          </button>
+        </div>
+        <div class="col-auto px-0">
+          <button type="button" class="btn pt-0">
+            <img src="./assets/image/italic.svg" alt="">
+          </button>
+        </div>
+      </div>
     </div>
+
+  </div>
+
 </body>
 
 </html>
